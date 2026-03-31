@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/cravecart
+      database: cravecart
+      transactions:
+        enabled: true
+server:
+  port: 8080
