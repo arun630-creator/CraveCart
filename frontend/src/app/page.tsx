@@ -33,10 +33,10 @@ export default function Home() {
             Order online and enjoy seamless delivery right to your door.
           </p>
           <Link
-            href="/services"
+            href="/products"
             className="inline-block bg-orange-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-orange-700 transition-colors"
           >
-            Explore Menu
+            Browse Products & Add to Cart
           </Link>
         </div>
       </section>

@@ -1,0 +1,172 @@
+{
+  "categories": [
+    {
+      "id": "cat_1",
+      "name": "Burgers",
+      "description": "Delicious burgers"
+    },
+    {
+      "id": "cat_2",
+      "name": "Pizza",
+      "description": "Fresh pizzas"
+    },
+    {
+      "id": "cat_3",
+      "name": "Beverages",
+      "description": "Drinks and beverages"
+    },
+    {
+      "id": "cat_4",
+      "name": "Desserts",
+      "description": "Sweet treats"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1",
+      "name": "Classic Burger",
+      "description": "Juicy beef burger with cheese",
+      "price": 8.99,
+      "categoryId": "cat_1",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_2",
+      "name": "Deluxe Burger",
+      "description": "Premium beef burger with bacon and mushrooms",
+      "price": 12.99,
+      "categoryId": "cat_1",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_3",
+      "name": "Spicy Chicken Burger",
+      "description": "Crispy chicken breast with spicy mayo",
+      "price": 10.99,
+      "categoryId": "cat_1",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_4",
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with basil and mozzarella",
+      "price": 11.99,
+      "categoryId": "cat_2",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_5",
+      "name": "Pepperoni Pizza",
+      "description": "Loaded with pepperoni slices",
+      "price": 13.99,
+      "categoryId": "cat_2",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1628840042765-356cda07f4ee?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_6",
+      "name": "Veggie Pizza",
+      "description": "Fresh vegetables with cheese",
+      "price": 12.99,
+      "categoryId": "cat_2",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1511689915989-48d7b8d05a38?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_7",
+      "name": "Coca Cola",
+      "description": "Regular cola drink - 500ml",
+      "price": 3.99,
+      "categoryId": "cat_3",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1554866585-c4b78d7d6580?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_8",
+      "name": "Orange Juice",
+      "description": "Fresh orange juice - 330ml",
+      "price": 4.99,
+      "categoryId": "cat_3",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_9",
+      "name": "Iced Coffee",
+      "description": "Refreshing cold coffee - 400ml",
+      "price": 5.99,
+      "categoryId": "cat_3",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1517668808822-9ebb02ae2a0e?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_10",
+      "name": "Chocolate Cake",
+      "description": "Rich chocolate cake slice",
+      "price": 6.99,
+      "categoryId": "cat_4",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_11",
+      "name": "Strawberry Cheesecake",
+      "description": "Creamy cheesecake with fresh strawberries",
+      "price": 7.99,
+      "categoryId": "cat_4",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1610312503222-dff8ff39c8ab?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    },
+    {
+      "id": "prod_12",
+      "name": "Ice Cream - Vanilla",
+      "description": "Vanilla ice cream scoop",
+      "price": 4.99,
+      "categoryId": "cat_4",
+      "brand": "CraveCart",
+      "imageUrl": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500",
+      "rating": 4.5,
+      "reviews": 42
+    }
+  ],
+  "inventories": [
+    {"id": "inv_1", "productId": "prod_1", "quantity": 50},
+    {"id": "inv_2", "productId": "prod_2", "quantity": 50},
+    {"id": "inv_3", "productId": "prod_3", "quantity": 50},
+    {"id": "inv_4", "productId": "prod_4", "quantity": 50},
+    {"id": "inv_5", "productId": "prod_5", "quantity": 50},
+    {"id": "inv_6", "productId": "prod_6", "quantity": 50},
+    {"id": "inv_7", "productId": "prod_7", "quantity": 50},
+    {"id": "inv_8", "productId": "prod_8", "quantity": 50},
+    {"id": "inv_9", "productId": "prod_9", "quantity": 50},
+    {"id": "inv_10", "productId": "prod_10", "quantity": 50},
+    {"id": "inv_11", "productId": "prod_11", "quantity": 50},
+    {"id": "inv_12", "productId": "prod_12", "quantity": 50}
+  ]
+}
